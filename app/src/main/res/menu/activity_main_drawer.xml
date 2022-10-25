@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_new_group"
+            android:icon="@drawable/ic_menu_group"
+            android:title="Новая группа" />
+        <item
+            android:id="@+id/nav_new_chat"
+            android:icon="@drawable/ic_menu_secret"
+            android:title="Новый секретный чат" />
+        <item
+            android:id="@+id/nav_create_channel"
+            android:icon="@drawable/ic_menu_create"
+            android:title="Создать канал" />
+    </group>
+
+    <item android:title="Основное">
+        <menu>
+            <item
+                android:id="@+id/nav_contacts"
+                android:icon="@drawable/ic_menu_contactsbook"
+                android:title="Контакты" />
+            <item
+                android:id="@+id/nav_favorites"
+                android:icon="@drawable/ic_menu_favorites"
+                android:title="Избранное" />
+            <item
+                android:id="@+id/nav_calls"
+                android:icon="@drawable/ic_menu_call"
+                android:title="Звонки" />
+            <item
+                android:id="@+id/nav_friends"
+                android:icon="@drawable/ic_menu_friends"
+                android:title="Пригласить друзей" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="Настройки" />
+        </menu>
+    </item>
+</menu>
